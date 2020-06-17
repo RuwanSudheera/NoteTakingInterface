@@ -1,0 +1,17 @@
+<table border="1">
+    <th>
+      <tr>
+        <th>Note Title</th>
+        <th>Note</th>
+        <th>Created On</th>
+      </tr>
+    </th>
+    <tbody>
+      <tr *ngFor="let note of notes">
+        <td>{{note.note_title}}</td>
+        <td>{{note.note_body}}</td>
+        <td>{{note.note_date}}</td>
+      </tr>
+    </tbody>
+  
+  </table>
